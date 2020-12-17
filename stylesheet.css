@@ -1,0 +1,267 @@
+body {
+  background-color: white;
+  text-align: center;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Staatliches', sans-serif;
+}
+
+h2 {
+ font-size: 28px;
+ font-family: 'Trispace', sans-serif;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 30px;
+}
+
+#navigation {
+ width: 100%;
+ background-color: #0E9DAA;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin: 0px;
+}
+
+.nav{
+font-family:'Poppins', sans-serif;
+font-size: 12px;
+display:flex;
+flex-direction: column;
+font-weight:lighter;
+background-color: #D0D0D0;
+justify-content:center;
+}
+
+ul {
+   list-style-type: none;
+   text-transform: uppercase;
+   display: flex;
+   justify-content: space-around;
+}
+
+ul a {
+   font-family: 'Poppins', sans-serif;
+   text-decoration: none;
+   font-weight: bolder;
+   color:#FFFFFF;
+}
+
+ul a:hover {
+   background-color: #FFFFFF;
+   font-weight: bolder;
+   color: #0E9DAA;
+   opacity: 0.9;
+}
+
+#leading ul{
+ font-family: 'Poppins', sans-serif;
+ font-size: 18px;
+ text-align: center;
+ display: block;
+}
+
+p {
+   font-family: 'Poppins', sans-serif;
+   font-size: 18px;
+   text-align: left;
+   padding-left: 50px;
+   padding-right: 50px;
+   margin: 30px;
+}
+
+p a {
+   font-family: 'Poppins', sans-serif;
+   text-decoration: none;
+   font-weight: bolder;
+   font-style:italic;
+   color:#163750;
+}
+
+p a:hover {
+   background-color: #163750;
+   font-weight: bolder;
+   color: white;
+   opacity: 0.7;
+}
+
+li {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-weight: bolder;
+  font-style:italic;
+  color:#5C0A30;
+}
+
+img {
+   border: none;
+   width: 40%;
+   min-width: 200px;
+   max-width: 600px;
+}
+
+
+
+footer{
+    background-color: #0E9DAA;
+    padding:30px 0px;
+}
+
+.address li , .menu li{
+  color: #FFF;
+  font-weight: bold;
+  border-bottom: 1px solid #c7c7c7;
+  padding:10px 0px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.address li a , .menu li a{
+   color:#FFF;
+   letter-spacing: 3px;
+   text-decoration:none;
+   font-size:14px;
+}
+
+.address li, .menu li{
+   margin:20px 0px;
+   list-style: none;
+}
+
+.address li a:hover , .menu li a:hover{
+   color: #da3e44;
+   -webkit-transition: all 1s ease-in-out;
+   -moz-transition: all 1s ease-in-out;
+   -o-transition: all 1s ease-in-out;
+   transition: all 1s ease-in-out;
+}
+
+.address .fa{
+   color: #da3e44;
+   margin-right: 10px;
+   font-size:18px;
+}
+
+
+@media screen and (max-width: 600px) {
+  #navigation ul{
+    flex-flow: column;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  @media only screen and (min-width: 600px) {
+    nav {
+      flex-direction: row;
+    }
+  }
+
+  h1{
+    font-size: 42px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 26px;
+  }
+  p {
+   font-size: 20px;
+   padding: 5px;
+  }
+  img{
+    width: 100%;
+  }
+  .menu{
+  flex-flow: wrap;
+  }
+  .address{
+    flex-flow: wrap;
+  }
+}
+
+.imageGallery {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  min-width:850px;
+  max-width: 850px;
+  padding: 10px;
+  margin:auto
+}
+
+.imageHolder {
+  font-family: "Barlow", "Arial", sans-serif;
+}
+
+.imageHolder caption {
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+img2 {
+  width: 90%;
+  max-width: 750px;
+  display:flex;
+}
+
+.button_holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hideThisDiv {
+  display: none;
+}
+
+
+
+
+
+
+
+.imageGallery2 {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  min-width:850px;
+  max-width: 850px;
+  padding: 10px;
+  margin:auto
+}
+
+.imageHolder2 {
+  font-family: "Barlow", "Arial", sans-serif;
+}
+
+.imageHolder2 caption2 {
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+img2 {
+  width: 90%;
+  max-width: 750px;
+  display:flex;
+}
+
+.button_holder2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hideThisDiv2 {
+  display: none;
+}
